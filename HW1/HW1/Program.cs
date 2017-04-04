@@ -12,8 +12,17 @@ namespace HW1
         {
             double pi = 3.141592653d;
             decimal e = 2.7182818284590452m;
-            Console.WriteLine(pi);
-            Console.WriteLine(e);
+           // Console.WriteLine(pi);
+          //  Console.WriteLine(e);
+           // Console.ReadKey();
+
+            string one = "\nмоя строка 1";
+            string two = "\tмоя строка 2";
+            string three = "\aмоя строка 3";
+
+            Console.Write(one);
+            Console.Write(two);
+            Console.Write(three);
             Console.ReadKey();
         }
     }
